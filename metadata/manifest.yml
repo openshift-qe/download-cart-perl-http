@@ -1,12 +1,14 @@
 Name: v2perl
 Cartridge-Short-Name: PERL
+Install-Build-Required: false
 Display-Name: Perl 5.10
 Description: "Perl is a general-purpose server-side scripting language originally designed for Web development to produce dynamic Web pages. Popular development frameworks include: CakePerl, Zend, Symfony, and Code Igniter."
 Version: '5.10'
 License: "GPL v2"
 License-Url: http://dev.perl.org/licenses/
 Vendor: perl.org
-Cartridge-Verion: 0.0.1
+Source-Url: https://github.com/jhou1/v2perl.git
+Cartridge-Version: 0.0.1
 Cartridge-Vendor: v2perl
 Categories:
   - service
@@ -87,5 +89,3 @@ Endpoints:
       - Frontend:      "/health"
         Backend:       ""
         Options:       { health: true }
-Install-Build-Required: false
-Source-Url: https://github.com/jhou1/v2perl.git
