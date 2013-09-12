@@ -7,7 +7,7 @@ Version: '5.10'
 License: "GPL v2"
 License-Url: http://dev.perl.org/licenses/
 Vendor: perl.org
-Source-Url: https://github.com/jhou1/v2perl.git
+Source-Url: https://raw.github.com/jhou1/openshift-custom-perl.git
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: v2perl
 Categories:
