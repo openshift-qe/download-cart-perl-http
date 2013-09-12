@@ -5,6 +5,13 @@ locked_files:
 - metadata/
 - metadata/*
 - env/
+- env/*
+- hooks/
+- hooks/*
 - etc/
+- etc/conf/
+- etc/conf/*
+- etc/conf.d/
+- etc/conf.d/openshift.conf
 processed_templates:
 - '**/*.erb'
