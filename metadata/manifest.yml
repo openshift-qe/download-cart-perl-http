@@ -1,6 +1,6 @@
 ---
-Name: v2perl
-Cartridge-Short-Name: v2PERL
+Name: perl
+Cartridge-Short-Name: perl
 Display-Name: Perl 5.10
 Description: Perl is a high-level, general-purpose, interpreted, dynamic programming
   language. Dynamic content produced by Perl scripts can be served in response to
@@ -82,4 +82,4 @@ Endpoints:
     Backend: ''
     Options:
       health: true
-Source-Url: https://github.com/jhou1/openshift-custom-perl.git
+Source-Url: http://github.com/jhou1/openshift-custom-perl.git
