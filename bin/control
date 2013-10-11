@@ -11,7 +11,6 @@ HTTPD_PID_FILE=$OPENSHIFT_PERL_DIR/run/httpd.pid
 
 # Functions called from case statement below
 function start() {
-sdbfsdfsdf
   echo "Starting Perl cartridge"
   write_httpd_passenv $HTTPD_PASSENV_FILE
   ensure_valid_httpd_process "$HTTPD_PID_FILE" "$HTTPD_CFG_FILE"
