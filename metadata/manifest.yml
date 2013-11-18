@@ -11,7 +11,7 @@ License-Url: http://dev.perl.org/licenses/
 Vendor: perl.org
 Cartridge-Version: 0.0.5
 Compatible-Versions: []
-Cartridge-Vendor: 1jhou
+Cartridge-Vendor: jhou1
 Categories:
 - service
 - perl
@@ -83,5 +83,5 @@ Endpoints:
     Backend: ''
     Options:
       health: true
-#Source-Url: http://github.com/jhou1/openshift-custom-perl.git
-Source-Url: http://d1-jhou.stg.rhcloud.com/perlv2cart.tar.gz
+Source-Url: http://github.com/jhou1/openshift-custom-perl.git
+#Source-Url: http://d1-jhou.stg.rhcloud.com/perlv2cart.tar.gz
