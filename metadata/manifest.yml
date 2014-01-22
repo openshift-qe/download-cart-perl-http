@@ -72,6 +72,8 @@ Endpoints:
 - Private-IP-Name: IP
   Private-Port-Name: PORT
   Private-Port: 8080
+  WebSocket-Port-Name: WEBSOCKET_PORT
+  WebSocket-Port: 8676
   Public-Port-Name: PROXY_PORT
   Protocols: [http, ws]
   Mappings:
