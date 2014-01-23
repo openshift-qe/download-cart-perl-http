@@ -16,3 +16,5 @@ echo > $OPENSHIFT_PERL_DIR/etc/conf.d/passenv.conf
 mkdir -p $OPENSHIFT_HOMEDIR/.cpanm
 
 echo $version >$OPENSHIFT_PERL_DIR/env/OPENSHIFT_PERL_VERSION
+
+return -1
